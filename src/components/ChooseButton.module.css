@@ -6,4 +6,5 @@
    align-items: center;
    gap: 10px;
    flex-shrink: 0;
+   margin-bottom: 25px;
 }
