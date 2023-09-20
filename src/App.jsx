@@ -3,7 +3,7 @@ import { AppLayout } from './components/AppLayout';
 import './App.css';
 import { HomeScreen } from './components/HomeScreen';
 
-function App() {
+function App({ children }) {
    return (
       <AppLayout>
          <div className="app">
