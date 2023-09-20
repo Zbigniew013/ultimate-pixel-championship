@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import WizardScreen from './components/WizardScreen.jsx';
+import WizardScreen from './components/wizard-screen-components/WizardScreen.jsx';
 
 const router = createBrowserRouter([
    {

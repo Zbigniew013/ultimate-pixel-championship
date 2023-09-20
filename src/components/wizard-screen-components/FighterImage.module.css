@@ -1,0 +1,10 @@
+.fighter_image {
+   text-align: center;
+   margin-top: 25px;
+   z-index: 20;
+}
+.ellipse {
+   text-align: center;
+   height: 20px;
+   margin-top: -10px;
+}
