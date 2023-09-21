@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../assets/Button.png';
+import Button from '../../../assets/Button.png';
 import styles from './ChooseButton.module.css';
 
 export const ChooseButton = () => {

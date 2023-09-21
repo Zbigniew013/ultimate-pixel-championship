@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './AppLayout.module.css';
-import Margin from '../../assets/Margin.png';
+import { Margin } from './libs/Margin';
 
 export const AppLayout = ({ children }) => {
    return (
       <div className={styles.layout}>
-         <img src={Margin} width={375} height={32} />
+         <Margin />
          {children}
-         <img src={Margin} width={375} height={32} style={{ transform: 'rotate(180deg)' }} />
+         <Margin transform="rotate(180deg)" />
       </div>
    );
 };
