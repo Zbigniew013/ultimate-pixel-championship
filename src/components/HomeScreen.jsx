@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './HomeScreen.module.css';
 import Line from '../../assets/Line 15.png';
 import Sword from '../../assets/image 5.png';
-import { ChooseButton } from './ChooseButton';
+import { ChooseButton } from '../components/libs/ChooseButton';
 import { Link } from 'react-router-dom';
 
 export const HomeScreen = () => {
